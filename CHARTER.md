@@ -1,7 +1,9 @@
-# {{ New Group Name }} Charter
+# Quality of Service (QoS) SIG Charter
 
-The information in this file should be created as part of the group formation and approved by your sponsoring group.  See the [Chairs Best Practices policy](https://docs.google.com/document/d/1rtXskVd7YyFq74tQ2OrInyM_-OQa228R5UZs5Pm3Vz0/) for more details.
+Quality of Service (QoS) SIG objective is to identify high priority gaps in the RISC-V technology portfolio relating to QoS in all segments of the RISC-V ecosystem.
 
-A good Task Group (TG) charter describes how it achieves filling in a gap defined by the Special Interest Group (SIG) or Committee that spawned it (directly or dotted line). It lists the specific small set of  deliverables it will deliver.
+Quality of Service (QoS) is the minimal end-to-end performance that is guaranteed in advance by a service level agreement (SLA) to an application as measured through metrics such as instructions per cycle (IPC), latency of servicing work, etc. When multiple applications run concurrently on modern processors with large core counts, multiple cache hierarchies, and multiple memory controllers, the performance of an application may become less deterministic or even non-deterministic as the performance depends on the behavior of all the other applications in the machine that contend for the shared resources leading to unfair and/or unexpected performance impacts to the application.
 
-A SIG is an extension of a Committee, in that its only deliverables are strategy, gaps, and prioritizations, and helping spawn other SIGs or TGs to fill the gaps. A good SIG charter spells out the small set of topic areas their strategy will address along with its responsibilities as laid out in this bullet.
+The QoS SIG objective is to define the strategy to address the desire for achieving deterministic performance by minimizing the interference caused by contention for shared resources. The QoS SIG will work on a gap analysis to identify RISC-V technology gaps and define the strategy and priority to address the identified gaps. In conducting that work, it is expected that the QoS SIG will recommend formation of TGs to define the HW and SW interfaces in the form of non-ISA and/or ISA extensions that solutions can be built upon.
+
+The QoS SIG, under the SoC Infra HC, will work closely with other SIGs, TGs, and HCs to develop the necessary hardware and software technologies.
